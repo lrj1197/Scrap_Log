@@ -1,0 +1,23 @@
+TODO
+sqlcmd -S 127.0.0.1 -U lrj1000 -P 'Resistor97!'
+
+fix idx logging in SCRAP table
+fix the verify button
+database tree
+Quality_Tracking
+  |_ SCRAP
+    |_ Part_Num
+    |_ Qty
+    |_ Date
+    |_ Name
+    |_ Reason
+    |_ Notes
+    |_ Is_Verified
+    |_ Total_Cost
+    |_ idx
+  |_ COST
+    |_ PartNum
+    |_ cost
+  |_ USERS
+    |_ name
+    |_ admin
